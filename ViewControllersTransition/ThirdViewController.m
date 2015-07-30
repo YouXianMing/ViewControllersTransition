@@ -39,16 +39,16 @@
     whiteView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.75f];
     [self.view addSubview:whiteView];
     
-    self.downLabel      = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, Width, Height / 2.f)];
+    self.downLabel               = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, Width, Height / 2.f)];
     self.downLabel.textAlignment = NSTextAlignmentCenter;
     self.downLabel.text          = @"YouXianMing";
     self.downLabel.font          = [UIFont fontWithName:@"AppleSDGothicNeo-Thin" size:36.f];
     self.downLabel.textColor     = [UIColor whiteColor];
     [whiteView addSubview:self.downLabel];
     
-    self.downLabel.glowRadius        = @(5.f);
-    self.downLabel.glowOpacity       = @(0.8);
-    self.downLabel.glowColor         = [UIColor cyanColor];
+    self.downLabel.glowRadius  = @(5.f);
+    self.downLabel.glowOpacity = @(0.8);
+    self.downLabel.glowColor   = [UIColor cyanColor];
     
     self.downLabel.glowDuration          = @(0.5f);
     self.downLabel.hideDuration          = @(1.f);
@@ -56,7 +56,6 @@
     
     [self.downLabel createGlowLayer];
     [self.downLabel insertGlowLayer];
-    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -70,6 +69,7 @@
  *  创建按钮
  */
 - (void)createButton {
+    
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, Height / 2.f, Width, Height / 2.f)];
     [self.view addSubview:button];
     
