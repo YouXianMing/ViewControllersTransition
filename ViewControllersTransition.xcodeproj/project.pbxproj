@@ -11,7 +11,6 @@
 		10D3EBF01B5DD543002B3D7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3EBEF1B5DD543002B3D7B /* AppDelegate.m */; };
 		10D3EBF81B5DD543002B3D7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D3EBF71B5DD543002B3D7B /* Images.xcassets */; };
 		10D3EBFB1B5DD543002B3D7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10D3EBF91B5DD543002B3D7B /* LaunchScreen.xib */; };
-		10D3EC071B5DD543002B3D7B /* ViewControllersTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3EC061B5DD543002B3D7B /* ViewControllersTransitionTests.m */; };
 		10D3EC151B5DD572002B3D7B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3EC121B5DD572002B3D7B /* BaseViewController.m */; };
 		10D3EC161B5DD572002B3D7B /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3EC141B5DD572002B3D7B /* BaseNavigationViewController.m */; };
 		10D3EC191B5DD5CA002B3D7B /* RootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3EC181B5DD5CA002B3D7B /* RootNavigationViewController.m */; };
@@ -30,16 +29,6 @@
 		10D3EC511B5E226D002B3D7B /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3EC501B5E226D002B3D7B /* UIView+GlowView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		10D3EC011B5DD543002B3D7B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 10D3EBDF1B5DD543002B3D7B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 10D3EBE61B5DD543002B3D7B;
-			remoteInfo = ViewControllersTransition;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		10D3EBE71B5DD543002B3D7B /* ViewControllersTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllersTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D3EBEB1B5DD543002B3D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,9 +37,6 @@
 		10D3EBEF1B5DD543002B3D7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		10D3EBF71B5DD543002B3D7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		10D3EBFA1B5DD543002B3D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		10D3EC001B5DD543002B3D7B /* ViewControllersTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllersTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10D3EC051B5DD543002B3D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10D3EC061B5DD543002B3D7B /* ViewControllersTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllersTransitionTests.m; sourceTree = "<group>"; };
 		10D3EC111B5DD572002B3D7B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		10D3EC121B5DD572002B3D7B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		10D3EC131B5DD572002B3D7B /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
@@ -93,13 +79,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		10D3EBFD1B5DD543002B3D7B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -107,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				10D3EBE91B5DD543002B3D7B /* ViewControllersTransition */,
-				10D3EC031B5DD543002B3D7B /* ViewControllersTransitionTests */,
 				10D3EBE81B5DD543002B3D7B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				10D3EBE71B5DD543002B3D7B /* ViewControllersTransition.app */,
-				10D3EC001B5DD543002B3D7B /* ViewControllersTransitionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,23 +124,6 @@
 			children = (
 				10D3EBEB1B5DD543002B3D7B /* Info.plist */,
 				10D3EBEC1B5DD543002B3D7B /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		10D3EC031B5DD543002B3D7B /* ViewControllersTransitionTests */ = {
-			isa = PBXGroup;
-			children = (
-				10D3EC061B5DD543002B3D7B /* ViewControllersTransitionTests.m */,
-				10D3EC041B5DD543002B3D7B /* Supporting Files */,
-			);
-			path = ViewControllersTransitionTests;
-			sourceTree = "<group>";
-		};
-		10D3EC041B5DD543002B3D7B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				10D3EC051B5DD543002B3D7B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,39 +203,17 @@
 			productReference = 10D3EBE71B5DD543002B3D7B /* ViewControllersTransition.app */;
 			productType = "com.apple.product-type.application";
 		};
-		10D3EBFF1B5DD543002B3D7B /* ViewControllersTransitionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10D3EC0D1B5DD543002B3D7B /* Build configuration list for PBXNativeTarget "ViewControllersTransitionTests" */;
-			buildPhases = (
-				10D3EBFC1B5DD543002B3D7B /* Sources */,
-				10D3EBFD1B5DD543002B3D7B /* Frameworks */,
-				10D3EBFE1B5DD543002B3D7B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				10D3EC021B5DD543002B3D7B /* PBXTargetDependency */,
-			);
-			name = ViewControllersTransitionTests;
-			productName = ViewControllersTransitionTests;
-			productReference = 10D3EC001B5DD543002B3D7B /* ViewControllersTransitionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		10D3EBDF1B5DD543002B3D7B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = YouXianMing;
 				TargetAttributes = {
 					10D3EBE61B5DD543002B3D7B = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					10D3EBFF1B5DD543002B3D7B = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 10D3EBE61B5DD543002B3D7B;
 					};
 				};
 			};
@@ -293,7 +231,6 @@
 			projectRoot = "";
 			targets = (
 				10D3EBE61B5DD543002B3D7B /* ViewControllersTransition */,
-				10D3EBFF1B5DD543002B3D7B /* ViewControllersTransitionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,13 +243,6 @@
 				10D3EBFB1B5DD543002B3D7B /* LaunchScreen.xib in Resources */,
 				10D3EBF81B5DD543002B3D7B /* Images.xcassets in Resources */,
 				10D3EC241B5DD7C7002B3D7B /* demo@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10D3EBFE1B5DD543002B3D7B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,23 +273,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		10D3EBFC1B5DD543002B3D7B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10D3EC071B5DD543002B3D7B /* ViewControllersTransitionTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		10D3EC021B5DD543002B3D7B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 10D3EBE61B5DD543002B3D7B /* ViewControllersTransition */;
-			targetProxy = 10D3EC011B5DD543002B3D7B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		10D3EBF91B5DD543002B3D7B /* LaunchScreen.xib */ = {
@@ -394,6 +308,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -461,6 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViewControllersTransition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YouXianMing.ZiPeiYi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -471,41 +387,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViewControllersTransition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YouXianMing.ZiPeiYi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		10D3EC0E1B5DD543002B3D7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ViewControllersTransitionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllersTransition.app/ViewControllersTransition";
-			};
-			name = Debug;
-		};
-		10D3EC0F1B5DD543002B3D7B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ViewControllersTransitionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllersTransition.app/ViewControllersTransition";
 			};
 			name = Release;
 		};
@@ -528,14 +411,7 @@
 				10D3EC0C1B5DD543002B3D7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		10D3EC0D1B5DD543002B3D7B /* Build configuration list for PBXNativeTarget "ViewControllersTransitionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10D3EC0E1B5DD543002B3D7B /* Debug */,
-				10D3EC0F1B5DD543002B3D7B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
