@@ -2,7 +2,7 @@
 
 > [详细的控制器转场动画实例以及动画对象的封装](http://www.cnblogs.com/YouXianMing/p/4665558.html)
 
-<img src="http://images0.cnblogs.com/blog2015/607542/201507/212015599744388.gif" align="left"  width="200">
+<img src="http://images0.cnblogs.com/blog2015/607542/201507/212015599744388.gif" width="200">
 <br>
 
 
