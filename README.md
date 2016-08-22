@@ -7,6 +7,5 @@
 
 * 控制器转场动画包括了普通控制器的present与dismiss转场动画,还有NavigationController的push与pop转场动画.其中,NavigationController的pop动画包含了回退百分比显示
 
-* 对转场动画对象进行行为抽象,让使用更加简单
+* 对转场动画对象进行行为抽象,让使用稍微简单一些
 
-* 即使简化了使用,控制器转场动画也是属于比较难掌握的
